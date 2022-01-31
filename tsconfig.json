@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es2016",
+    "target": "es2017",
     "lib": [
       "es2018",
       "es6",
@@ -8,6 +8,7 @@
       "dom.iterable"
     ],
     "module": "commonjs",
+    "moduleResolution": "node",
     "rootDir": "src",
     "resolveJsonModule": true,
     "allowJs": true,
@@ -19,6 +20,6 @@
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
     "noFallthroughCasesInSwitch": true
-
-  }
+  },
+  "include": ["src"]
 }
